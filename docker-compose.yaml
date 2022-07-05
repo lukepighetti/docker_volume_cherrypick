@@ -1,7 +1,6 @@
 services:
   dvt:
     container_name: dvt
-    # restart: unless-stopped
     image: dvt:staging
     volumes:
       - ./data:/app/data

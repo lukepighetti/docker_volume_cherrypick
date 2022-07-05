@@ -16,7 +16,3 @@ COPY --from=build /app/bin/server /app/bin/
 
 EXPOSE 8081
 CMD ["/app/bin/server"]
-
-# # Service must listen to $PORT environment variable.
-# # This default value facilitates local development.
-# ENV PORT 8080
