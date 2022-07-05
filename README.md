@@ -1,6 +1,6 @@
 # docker_volume_cherrypick
 
-Testing if it's possible to cherrypick a file in a volume in Docker Compose.
+Testing if it's possible to cherrypick a file in a volume in Docker.
 
 ### Example
 
