@@ -1,10 +1,8 @@
-# docker_volume_test
+# docker_volume_cherrypick
 
-Testing how Docker handles files as volumes, especially when nested inside a folder as a volume.
+Testing if it's possible to cherrypick a file in a volume in Docker Compose.
 
 ### Example
-
-
 
 In container
 ```
@@ -36,7 +34,6 @@ services:
 ```
 
 ### Environment
-
 
 - Docker version 20.10.16, build aa7e414
 - docker-compose version 1.29.2, build 5becea4c
