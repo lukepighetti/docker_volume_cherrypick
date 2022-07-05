@@ -42,3 +42,5 @@ services:
 ### Result
 
 Docker does allow us to 'cherrypick' files inside a volume if we first create the file and then build/run the image/container.
+
+It does create an empty file in the original location, though.
