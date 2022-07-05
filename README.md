@@ -8,13 +8,16 @@ Testing how Docker handles files as volumes, especially when nested inside a fol
 
 In container
 ```
-/app/data
-├── file_a.txt
-└── file_b.txt
+/
+└── app
+    └── data
+        ├── file_a.txt
+        └── file_b.txt
 ```
 
 On host
 ```
+.
 ├── data
 │   └── file_a.txt
 └── file_b.txt
