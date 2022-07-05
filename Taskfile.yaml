@@ -1,0 +1,9 @@
+version: "3"
+
+tasks:
+  build:
+    - docker build -t dvt .
+    - docker tag dvt:latest dvt:staging
+
+  run:
+    - docker-compose up
